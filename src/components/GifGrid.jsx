@@ -11,6 +11,7 @@ import { useFetchGifs } from "../hooks/useFetchGifs";
 import { Loading } from "./Loading";
 
 export const GifGrid = ({ category }) => {
+    //! Loading
     const { images, isLoading } = useFetchGifs(category);
 
     return (

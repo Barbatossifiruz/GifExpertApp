@@ -1,40 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
     font-family: Helvetica, Arial, sans-serif;
-    background-color: rgb(234, 234, 234);
+    background-color: #141414;
 }
 
 body {
     padding: 60px;
 }
 
-input {
-    background-color: white;
-    border-radius: 5px;
-    border: 1px solid rgb(97, 32, 158);
-    color: black;
-    font-size: 1.2rem;
-    outline: none;
-    padding: 10px 15px;
-    width: 100%;
-}
-
-h2 {
-    font-size: 1.5rem;
-}
-
-h3 {
-    font-size: 3rem;
-    margin-bottom: 5px;
-}
-
-.card-grid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.card {
+/* .card {
     align-content: center;
     align-items: center;
     background-color: white;
@@ -47,7 +24,21 @@ h3 {
     margin-bottom: 20px;
     margin-right: 20px;
     overflow: hidden;
-}
+} */
+
+/* input {
+    background-color: white;
+    border: 1px solid rgb(97, 32, 158);
+    color: black;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+} */
+
+/* 
+
+
 
 .card p {
     background-color: white;
@@ -61,3 +52,8 @@ h3 {
 .card img {
     width: 100%;
 }
+
+.emoji {
+    width: 100px;
+    height: 100px;
+} */

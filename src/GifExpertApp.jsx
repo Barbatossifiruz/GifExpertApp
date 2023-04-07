@@ -13,7 +13,7 @@ export const GifExpertApp = () => {
     return (
         <>
             {/* Titulo */}
-            <h1>GifExpertApp</h1>
+            <h1 className="p-2 text-3xl text-white  text-center"> Gif Expert App</h1>
             {/* Input */}
             <AddCategory
                 // setCategories={setCategories}

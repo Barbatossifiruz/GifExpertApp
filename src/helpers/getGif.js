@@ -1,6 +1,6 @@
-//* Exporta los gif
+//* Get GIF from API
 export const getGifs = async (category) => {
-    const url = `http://api.giphy.com/v1/gifs/search?api_key=R1sgIxnMweToL4LHCuHAkxnRnF2IFTrU&q=${category}&offset=1&total_count=200&count=10&limit=12`;
+    const url = `https://api.giphy.com/v1/gifs/search?api_key=R1sgIxnMweToL4LHCuHAkxnRnF2IFTrU&q=${category}&limit=10`;
 
     const resp = await fetch(url);
 
